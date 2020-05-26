@@ -21,7 +21,7 @@ import Triangle.CodeGenerator.Encoder;
  * to get to the ASTs in order to draw them in the IDE without modifying the
  * original Triangle code.
  *
- * @author Luis Leopoldo Pérez <luiperpe@ns.isi.ulatina.ac.cr>
+ * @author Luis Leopoldo Prez <luiperpe@ns.isi.ulatina.ac.cr>
  */
 public class IDECompiler {
 

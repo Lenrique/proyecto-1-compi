@@ -84,8 +84,8 @@ import Triangle.AbstractSyntaxTrees.WhileCommand;
 
 public class Parser {
 
-  private Scanner lexicalAnalyser;
-  private ErrorReporter errorReporter;
+  private final Scanner lexicalAnalyser;
+  private final ErrorReporter errorReporter;
   private Token currentToken;
   private SourcePosition previousTokenPosition;
 
@@ -143,7 +143,7 @@ public class Parser {
 
   public Program parseProgram() {
 
-    Program programAST = null;
+    Program programAST;
 
     previousTokenPosition.start = 0;
     previousTokenPosition.finish = 0;
@@ -166,6 +166,8 @@ public class Parser {
 // LITERALS
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region LITERALS
 
 // parseIntegerLiteral parses an integer-literal, and constructs
 // a leaf AST to represent it.
@@ -239,11 +241,15 @@ public class Parser {
     return O;
   }
 
+  //endregion
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // COMMANDS
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region COMMANDS
 
 // parseCommand parses the command, and constructs an AST
 // to represent its phrase structure.
@@ -293,10 +299,12 @@ public class Parser {
       }
       break;
 
-    case Token.BEGIN:
+    case Token.BEGAN:
+      {
       acceptIt();
       commandAST = parseCommand();
       accept(Token.END);
+    }
       break;
 
     case Token.LET:
@@ -354,11 +362,15 @@ public class Parser {
     return commandAST;
   }
 
+  //endregion
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // EXPRESSIONS
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region EXPRESSIONS
 
   Expression parseExpression() throws SyntaxError {
     Expression expressionAST = null; // in case there's a syntactic error
@@ -543,11 +555,15 @@ public class Parser {
     return aggregateAST;
   }
 
+  //endregion EXPRESSIONS
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // VALUE-OR-VARIABLE NAMES
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region VALUE-OR-VARIABLE NAMES
 
   Vname parseVname () throws SyntaxError {
     Vname vnameAST = null; // in case there's a syntactic error
@@ -579,11 +595,15 @@ public class Parser {
     return vAST;
   }
 
+  //endregion
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // DECLARATIONS
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region DECLARATIONS
 
   Declaration parseDeclaration() throws SyntaxError {
     Declaration declarationAST = null; // in case there's a syntactic error
@@ -682,11 +702,15 @@ public class Parser {
     return declarationAST;
   }
 
+  //endregion
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // PARAMETERS
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region PARAMETERS
 
   FormalParameterSequence parseFormalParameterSequence() throws SyntaxError {
     FormalParameterSequence formalsAST;
@@ -788,7 +812,6 @@ public class Parser {
     return formalAST;
   }
 
-
   ActualParameterSequence parseActualParameterSequence() throws SyntaxError {
     ActualParameterSequence actualsAST;
 
@@ -886,11 +909,15 @@ public class Parser {
     return actualAST;
   }
 
+  //endregion
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // TYPE-DENOTERS
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+  //region TYPE-DENOTERS
 
   TypeDenoter parseTypeDenoter() throws SyntaxError {
     TypeDenoter typeAST = null; // in case there's a syntactic error
@@ -958,4 +985,6 @@ public class Parser {
     }
     return fieldAST;
   }
+
+  //endregion
 }

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32b9f6bb-dbcb-4080-80c8-09d8809f7551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ide-triangle-v1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle/IDECompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/IDECompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Token.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cBikZxI8TAsuorjTvm8zfn1uRu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Compiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Triangle.Compiler" />
+      <module name="ide-triangle-v1.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Triangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.Main" />
+      <module name="ide-triangle-v1.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Compiler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32b9f6bb-dbcb-4080-80c8-09d8809f7551" name="Default Changelist" comment="" />
+      <created>1590008530095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590008530095</updated>
+      <workItem from="1590008533471" duration="558000" />
+      <workItem from="1590025468638" duration="2232000" />
+      <workItem from="1590072884645" duration="7829000" />
+      <workItem from="1590097203599" duration="1906000" />
+      <workItem from="1590499853058" duration="1435000" />
+      <workItem from="1590516881516" duration="2884000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1024" y="409" width="502" height="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590073714307">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="1024" y="409" width="502" height="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.2560.1053@0.27.2560.1053" timestamp="1590073714307" />
+    <state width="2518" height="342" key="GridCell.Tab.0.bottom" timestamp="1590519262605">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.0.bottom/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262605" />
+    <state width="2518" height="342" key="GridCell.Tab.0.center" timestamp="1590519262603">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.0.center/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262603" />
+    <state width="2518" height="342" key="GridCell.Tab.0.left" timestamp="1590519262601">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.0.left/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262601" />
+    <state width="2518" height="342" key="GridCell.Tab.0.right" timestamp="1590519262604">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.0.right/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262604" />
+    <state width="2518" height="342" key="GridCell.Tab.1.bottom" timestamp="1590519262608">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.1.bottom/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262608" />
+    <state width="2518" height="342" key="GridCell.Tab.1.center" timestamp="1590519262606">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.1.center/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262606" />
+    <state width="2518" height="342" key="GridCell.Tab.1.left" timestamp="1590519262606">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.1.left/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262606" />
+    <state width="2518" height="342" key="GridCell.Tab.1.right" timestamp="1590519262607">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="2518" height="342" key="GridCell.Tab.1.right/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262607" />
+    <state x="943" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1590082681918">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="943" y="259" width="672" height="678" key="search.everywhere.popup/0.27.2560.1053@0.27.2560.1053" timestamp="1590082681918" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currentToken" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
