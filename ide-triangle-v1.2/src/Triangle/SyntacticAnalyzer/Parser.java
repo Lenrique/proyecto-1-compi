@@ -299,7 +299,7 @@ public class Parser {
       }
       break;
 
-    case Token.BEGIN:
+    case Token.BEGAN:
       {
       acceptIt();
       commandAST = parseCommand();
@@ -307,13 +307,12 @@ public class Parser {
     }
       break;
 
-
     case Token.LET:
       {
         acceptIt();
         Declaration dAST = parseDeclaration();
         accept(Token.IN);
-        Command cAST = parseCommand(); //parseSimpleCommand changed to parseCommand
+        Command cAST = parseSingleCommand();
         finish(commandPos);
         commandAST = new LetCommand(dAST, cAST, commandPos);
       }
@@ -337,7 +336,7 @@ public class Parser {
         acceptIt();
         Expression eAST = parseExpression();
         accept(Token.DO);
-        Command cAST = parseCommand(); //parseSimpleCommand changed to parseCommand
+        Command cAST = parseSingleCommand();
         finish(commandPos);
         commandAST = new WhileCommand(eAST, cAST, commandPos);
       }
