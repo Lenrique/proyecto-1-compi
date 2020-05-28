@@ -17,7 +17,7 @@ package Triangle.SyntacticAnalyzer;
 
 public final class Scanner {
 
-  private SourceFile sourceFile;
+  private final SourceFile sourceFile;
   private boolean debug;
 
   private char currentChar;
@@ -199,7 +199,7 @@ public final class Scanner {
       scanSeparator();
 
     currentlyScanningToken = true;
-    currentSpelling = new StringBuffer("");
+    currentSpelling = new StringBuffer();
     pos = new SourcePosition();
     pos.start = sourceFile.getCurrentLine();
 

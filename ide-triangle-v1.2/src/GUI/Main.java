@@ -152,7 +152,7 @@ public class Main extends javax.swing.JFrame {
     /**
      * Main method, instantiates the Main class.
      */
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Main();
@@ -635,7 +635,7 @@ public class Main extends javax.swing.JFrame {
      * Handles the "Save" button and menu option.
      */
     private void saveMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveMenuItemActionPerformed
-        String fileName = ((FileFrame)desktopPane.getSelectedFrame()).getTitle();
+        String fileName = desktopPane.getSelectedFrame().getTitle();
         boolean overwrite = true;
         
         if (!(((FileFrame)desktopPane.getSelectedFrame()).getPreviouslySaved())) {
@@ -665,7 +665,7 @@ public class Main extends javax.swing.JFrame {
             }
 
             ((FileFrame)desktopPane.getSelectedFrame()).setPreviouslySaved(true);
-            ((FileFrame)desktopPane.getSelectedFrame()).setTitle(fileName);            
+            desktopPane.getSelectedFrame().setTitle(fileName);
             ((FileFrame)desktopPane.getSelectedFrame()).setPreviouslyModified(false);
             ((FileFrame)desktopPane.getSelectedFrame()).setPreviousSize(((FileFrame)desktopPane.getSelectedFrame()).getSourcePaneText().length());
             ((FileFrame)desktopPane.getSelectedFrame()).setPreviousText(((FileFrame)desktopPane.getSelectedFrame()).getSourcePaneText());
@@ -679,7 +679,7 @@ public class Main extends javax.swing.JFrame {
      * Handles the "New File" button and menu option.
      */
     private void newMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_newMenuItemActionPerformed
-        addInternalFrame("Untitled-" + String.valueOf(untitledCount), "");      
+        addInternalFrame("Untitled-" + untitledCount, "");
         untitledCount++;
     }//GEN-LAST:event_newMenuItemActionPerformed
 
@@ -898,7 +898,7 @@ public class Main extends javax.swing.JFrame {
             Transferable contents = clipboard.getContents(null);
             if (contents != null && contents.isDataFlavorSupported(DataFlavor.stringFlavor)) {
                 try {
-                    DataFlavor flavorSet[] = contents.getTransferDataFlavors();
+                    DataFlavor[] flavorSet = contents.getTransferDataFlavors();
                     boolean canString = false;
                     for (int i=0;i<flavorSet.length;i++)
                         if (flavorSet[i] == DataFlavor.stringFlavor)

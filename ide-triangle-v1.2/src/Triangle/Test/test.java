@@ -228,7 +228,7 @@ public class test {
 
     public static class BookCatagory {
 
-        private String catagory;
+        private final String catagory;
 
         public BookCatagory(String cat) {
             this.catagory = cat;
@@ -242,8 +242,8 @@ public class test {
 
     private static class BookInfo {
 
-        private String bookName;
-        private String bookURL;
+        private final String bookName;
+        private final String bookURL;
 
         public BookInfo(String book, String filename) {
             bookName = book;

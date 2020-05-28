@@ -106,7 +106,7 @@ final class Token extends Object {
     EOT			= 34,
     ERROR		= 35;
 
-  private static String[] tokenTable = new String[] {
+  private static final String[] tokenTable = new String[] {
     "<int>",
     "<char>",
     "<identifier>",
