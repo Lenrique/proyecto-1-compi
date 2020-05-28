@@ -20,12 +20,176 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b9f6bb-dbcb-4080-80c8-09d8809f7551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ide-triangle-v1.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/IDECompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/IDECompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Triangle/Test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejemplos/ejemplo1.tri" beforeDir="false" afterPath="$PROJECT_DIR$/../ejemplos/ejemplo1.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ide-triangle-v1.1.src (copy).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ide-triangle-v1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ide-triangle-v1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Console/InputRedirector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Console/InputRedirector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Console/OutputRedirector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Console/OutputRedirector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/ExampleFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/ExampleFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEDisassembler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEDisassembler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEDisassembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEDisassembler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEInterpreter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEInterpreter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEInterpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/IDE/IDEInterpreter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Visitors/TableVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Visitors/TableVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Visitors/TreeVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Core/Visitors/TreeVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/AboutDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/AboutDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/AboutDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/AboutDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/FileFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/FileFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$clipBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main$clipBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/GUI/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Disassembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Disassembler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Instruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Instruction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Interpreter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Machine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/TAM/Machine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/AST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/AST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ActualParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ActualParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ActualParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ActualParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/AnyTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/AnyTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ArrayAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ArrayAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ArrayExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ArrayExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ArrayTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ArrayTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/AssignCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/AssignCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/BinaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/BinaryExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/BinaryOperatorDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/BinaryOperatorDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/BoolTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/BoolTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CallCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CallCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CallExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CallExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CharTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CharTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CharacterExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CharacterExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CharacterLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/CharacterLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ConstActualParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ConstActualParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ConstDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ConstDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ConstFormalParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ConstFormalParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Declaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Declaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/DotVname.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/DotVname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyActualParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyActualParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyFormalParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/EmptyFormalParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ErrorTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ErrorTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FieldTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FieldTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FormalParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FormalParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FormalParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FormalParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FuncActualParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FuncActualParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FuncDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FuncDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FuncFormalParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/FuncFormalParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Identifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Identifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IfCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IfCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IfExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IfExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IntTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IntTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IntegerExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IntegerExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IntegerLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/IntegerLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/LetCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/LetCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/LetExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/LetExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleActualParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleActualParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleArrayAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleArrayAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleFieldTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleFieldTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleFormalParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleFormalParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleRecordAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/MultipleRecordAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ProcActualParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ProcActualParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ProcDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ProcDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ProcFormalParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/ProcFormalParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/RecordAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/RecordAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/RecordExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/RecordExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/RecordTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/RecordTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SequentialCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SequentialCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SequentialDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SequentialDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SimpleTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SimpleTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SimpleVname.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SimpleVname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleActualParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleActualParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleArrayAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleArrayAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleFieldTypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleFieldTypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleFormalParameterSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleFormalParameterSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleRecordAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SingleRecordAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SubscriptVname.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/SubscriptVname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Terminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/TypeDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/TypeDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/TypeDenoter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/TypeDenoter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/UnaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/UnaryExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/UnaryOperatorDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/UnaryOperatorDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VarActualParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VarActualParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VarDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VarDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VarFormalParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VarFormalParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Vname.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/Vname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VnameExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/VnameExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/WhileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/AbstractSyntaxTrees/WhileCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/Encoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/Encoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/EqualityRoutine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/EqualityRoutine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/Frame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/KnownAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/KnownAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/KnownRoutine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/KnownRoutine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/KnownValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/KnownValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/ObjectAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/ObjectAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/PrimitiveRoutine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/PrimitiveRoutine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/RuntimeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/RuntimeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/TypeRepresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/TypeRepresentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/UnknownAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/UnknownAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/UnknownRoutine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/UnknownRoutine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/UnknownValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/CodeGenerator/UnknownValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ContextualAnalyzer/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ContextualAnalyzer/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ContextualAnalyzer/IdEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ContextualAnalyzer/IdEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ContextualAnalyzer/IdentificationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ContextualAnalyzer/IdentificationTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ErrorReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/ErrorReporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/IDECompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/IDECompiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/IDEReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/IDEReporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/StdEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/StdEnvironment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/Scanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/SourceFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/SourceFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/SourcePosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/SourcePosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/SyntaxError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/SyntaxError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/SyntacticAnalyzer/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/Drawer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/Drawer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawerFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawerFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawerFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawerPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/DrawingTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/LayoutVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/LayoutVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/Polygon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/Polyline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/TreeDrawer/Polyline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Visitors/TableVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Visitors/TableVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Visitors/TreeVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Visitors/TreeVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Token.java" afterDir="false" />
     </list>
@@ -34,11 +198,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1cBikZxI8TAsuorjTvm8zfn1uRu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +223,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jaxb-2.0.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Compiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -79,9 +257,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Triangle.Test.test" />
+      <module name="ide-triangle-v1.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Triangle.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Compiler" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Compiler" />
       </list>
     </recent_temporary>
@@ -102,6 +299,9 @@
       <workItem from="1590097203599" duration="1906000" />
       <workItem from="1590499853058" duration="1435000" />
       <workItem from="1590516881516" duration="2884000" />
+      <workItem from="1590689047732" duration="2126000" />
+      <workItem from="1590692015118" duration="6491000" />
+      <workItem from="1590700524668" duration="946000" />
     </task>
     <servers />
   </component>
@@ -121,26 +321,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="901" y="234" width="747" height="645" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590691221093">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="901" y="234" width="747" height="645" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.2560.1053@0.27.2560.1053" timestamp="1590691221093" />
     <state x="1024" y="409" width="502" height="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590073714307">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
     <state x="1024" y="409" width="502" height="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.2560.1053@0.27.2560.1053" timestamp="1590073714307" />
-    <state width="2518" height="342" key="GridCell.Tab.0.bottom" timestamp="1590519262605">
+    <state x="662" y="398" width="652" height="540" key="FileChooserDialogImpl" timestamp="1590692097493">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="2518" height="342" key="GridCell.Tab.0.bottom/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262605" />
-    <state width="2518" height="342" key="GridCell.Tab.0.center" timestamp="1590519262603">
+    <state x="662" y="398" width="652" height="540" key="FileChooserDialogImpl/0.27.2560.1053@0.27.2560.1053" timestamp="1590692097493" />
+    <state width="1478" height="198" key="GridCell.Tab.0.bottom" timestamp="1590700514009">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="2518" height="342" key="GridCell.Tab.0.center/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262603" />
-    <state width="2518" height="342" key="GridCell.Tab.0.left" timestamp="1590519262601">
+    <state width="1478" height="198" key="GridCell.Tab.0.bottom/0.27.2560.1053@0.27.2560.1053" timestamp="1590700514009" />
+    <state width="1478" height="198" key="GridCell.Tab.0.center" timestamp="1590700514008">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="2518" height="342" key="GridCell.Tab.0.left/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262601" />
-    <state width="2518" height="342" key="GridCell.Tab.0.right" timestamp="1590519262604">
+    <state width="1478" height="198" key="GridCell.Tab.0.center/0.27.2560.1053@0.27.2560.1053" timestamp="1590700514008" />
+    <state width="1478" height="198" key="GridCell.Tab.0.left" timestamp="1590700514007">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="2518" height="342" key="GridCell.Tab.0.right/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262604" />
+    <state width="1478" height="198" key="GridCell.Tab.0.left/0.27.2560.1053@0.27.2560.1053" timestamp="1590700514007" />
+    <state width="1478" height="198" key="GridCell.Tab.0.right" timestamp="1590700514009">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state width="1478" height="198" key="GridCell.Tab.0.right/0.27.2560.1053@0.27.2560.1053" timestamp="1590700514009" />
     <state width="2518" height="342" key="GridCell.Tab.1.bottom" timestamp="1590519262608">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
@@ -157,6 +365,18 @@
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
     <state width="2518" height="342" key="GridCell.Tab.1.right/0.27.2560.1053@0.27.2560.1053" timestamp="1590519262607" />
+    <state x="517" y="221" width="992" height="737" key="SettingsEditor" timestamp="1590692276730">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="517" y="221" width="992" height="737" key="SettingsEditor/0.27.2560.1053@0.27.2560.1053" timestamp="1590692276730" />
+    <state x="100" y="127" width="1320" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590700298898">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="100" y="127" width="1320" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.2560.1053@0.27.2560.1053" timestamp="1590700298898" />
+    <state x="100" y="127" width="1320" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1590700298898">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="100" y="127" width="1320" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.27.2560.1053@0.27.2560.1053" timestamp="1590700298898" />
     <state x="943" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1590082681918">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>

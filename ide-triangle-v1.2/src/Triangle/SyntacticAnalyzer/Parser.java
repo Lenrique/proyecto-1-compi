@@ -299,7 +299,7 @@ public class Parser {
       }
       break;
 
-    case Token.BEGAN:
+    case Token.BEGIN:
       {
       acceptIt();
       commandAST = parseCommand();
