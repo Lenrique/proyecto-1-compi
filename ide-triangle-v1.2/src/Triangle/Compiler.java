@@ -20,6 +20,8 @@ import Triangle.ContextualAnalyzer.Checker;
 import Triangle.SyntacticAnalyzer.Parser;
 import Triangle.SyntacticAnalyzer.Scanner;
 import Triangle.SyntacticAnalyzer.SourceFile;
+import Triangle.SyntacticAnalyzer.TestHTML;
+import Triangle.Test.XMLConcreteVisitor;
 import Triangle.TreeDrawer.Drawer;
 
 /**
@@ -77,12 +79,21 @@ public class Compiler {
         reporter = new ErrorReporter();
         parser   = new Parser(scanner, reporter);
         //Disable Checker and Encoder
-        //checker  = new Checker(reporter);
-        //encoder  = new Encoder(reporter);
+        checker  = new Checker(reporter);
+        encoder  = new Encoder(reporter);
         drawer   = new Drawer();
 
         // scanner.enableDebugging();
         theAST = parser.parseProgram();				// 1st pass
+        /*
+        SourceFile source1 = new SourceFile(sourceName);
+        Scanner scanner1 = new Scanner(source1);
+        TestHTML testHTML = new TestHTML(scanner1);
+
+        XMLConcreteVisitor xmlConcreteVisitor = new XMLConcreteVisitor();
+        xmlConcreteVisitor.export(theAST,null);
+        */
+
         //Disable Checker and Encoder
         /*
         if (reporter.numErrors == 0) {
@@ -98,8 +109,8 @@ public class Compiler {
                 System.out.println("Code Generation ...");
                 encoder.encodeRun(theAST, showingTable);	// 3rd pass
             }
-        }*/
-
+        }
+        */
 	boolean successful = (reporter.numErrors == 0);
         if (successful) {
             encoder.saveObjectProgram(objectName);

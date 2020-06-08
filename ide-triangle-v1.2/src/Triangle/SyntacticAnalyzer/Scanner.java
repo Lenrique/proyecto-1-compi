@@ -20,6 +20,7 @@ public final class Scanner {
   private final SourceFile sourceFile;
   private boolean debug;
 
+
   private char currentChar;
   private StringBuffer currentSpelling;
   private boolean currentlyScanningToken;
@@ -58,9 +59,13 @@ public final class Scanner {
   // the next character from the source program.
 
   private void takeIt() {
-    if (currentlyScanningToken)
+    if (currentlyScanningToken) {
       currentSpelling.append(currentChar);
+    }
     currentChar = sourceFile.getSource();
+
+
+
   }
 
   // scanSeparator skips a single separator.
@@ -200,6 +205,7 @@ public final class Scanner {
 
     currentlyScanningToken = true;
     currentSpelling = new StringBuffer();
+
     pos = new SourcePosition();
     pos.start = sourceFile.getCurrentLine();
 
@@ -209,6 +215,7 @@ public final class Scanner {
     tok = new Token(kind, currentSpelling.toString(), pos);
     if (debug)
       System.out.println(tok);
+
     return tok;
   }
 

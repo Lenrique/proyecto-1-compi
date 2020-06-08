@@ -1,4 +1,4 @@
 package Triangle.AbstractSyntaxTrees;
 
-public class elsifCommand {
+public class ElsifCommand {
 }

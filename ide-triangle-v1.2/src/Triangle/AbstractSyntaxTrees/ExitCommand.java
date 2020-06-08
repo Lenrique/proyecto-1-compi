@@ -2,13 +2,13 @@ package Triangle.AbstractSyntaxTrees;
 
 import Triangle.SyntacticAnalyzer.SourcePosition;
 
-public class RestIfCommand extends Command{
+public class ExitCommand extends Command {
 
-    ElsifCommand eAST;
-    Command cAST;
+    Identifier I;
 
-    public RestIfCommand(SourcePosition thePosition){
-        super(thePosition);
+    public ExitCommand (Identifier iAST, SourcePosition position){
+        super (position);
+        I = iAST;
     }
 
     @Override

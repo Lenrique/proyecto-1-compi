@@ -51,7 +51,7 @@ public class test {
             ex.printStackTrace();
         }
 
-/*
+
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
             Document document = documentBuilder.newDocument();
@@ -119,7 +119,7 @@ public class test {
             System.out.println("Done creating XML File");
 
 
-*/
+
         }catch (Exception exception){
             exception.printStackTrace();
         }
