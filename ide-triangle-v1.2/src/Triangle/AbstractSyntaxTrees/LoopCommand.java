@@ -15,6 +15,6 @@ public class LoopCommand extends  Command{
 
     @Override
     public Object visit(Visitor v, Object o) {
-        return null;
+        return v.visitLoopCommand(this, o);
     }
 }

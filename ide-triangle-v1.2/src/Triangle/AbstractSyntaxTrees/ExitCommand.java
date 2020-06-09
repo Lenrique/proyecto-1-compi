@@ -4,7 +4,7 @@ import Triangle.SyntacticAnalyzer.SourcePosition;
 
 public class ExitCommand extends Command {
 
-    Identifier I;
+    public Identifier I;
 
     public ExitCommand (Identifier iAST, SourcePosition position){
         super (position);
@@ -13,6 +13,6 @@ public class ExitCommand extends Command {
 
     @Override
     public Object visit(Visitor v, Object o) {
-        return null;
+        return v.visitExitCommand(this, o);
     }
 }

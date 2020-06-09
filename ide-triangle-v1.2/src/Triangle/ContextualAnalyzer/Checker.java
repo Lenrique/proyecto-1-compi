@@ -94,6 +94,26 @@ public final class Checker implements Visitor {
     return null;
   }
 
+  @Override
+  public Object visitExitCommand(ExitCommand exitCommand, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitLoopCommand(LoopCommand loopCommand, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitRepeatVarCommand(RepeatVarCommand repeatVarCommand, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitRepeatVarDeclaration(RepeatVarDeclaration repeatVarDeclaration, Object o) {
+    return null;
+  }
+
   // Expressions
 
   // Returns the TypeDenoter denoting the type of the expression. Does

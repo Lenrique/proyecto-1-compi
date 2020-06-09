@@ -58,6 +58,27 @@ public class TreeVisitor implements Visitor {
         return(createBinary("Until Command", ast.E, ast.C));
     }
 
+
+    @Override
+    public Object visitExitCommand(ExitCommand ast, Object o) {
+        return (createUnary("Exit Comand",ast.I));
+    }
+
+    @Override
+    public Object visitLoopCommand(LoopCommand ast, Object o) {
+        return (createBinary("Loop Command", ast.I, ast.C));
+    }
+
+    @Override
+    public Object visitRepeatVarCommand(RepeatVarCommand ast, Object o) {
+        return (createTernary("RepeatVar Command", ast.repeatVarDeclaration,ast.E2,ast.C));
+    }
+
+    @Override
+    public Object visitRepeatVarDeclaration(RepeatVarDeclaration ast, Object o) {
+        return (createBinary("RepeatVar Declaration",ast.I,ast.E1));
+    }
+
     // </editor-fold>
     
     // <editor-fold defaultstate="collapsed" desc=" Expressions ">

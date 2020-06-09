@@ -2,18 +2,39 @@ package Triangle.Test;
 
 import Triangle.AbstractSyntaxTrees.*;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class XMLConcreteVisitor implements Visitor {
 
-    public String export(Program ast, Object o) {
+    public void export(Program ast, String filename) {
         StringBuilder sb = new StringBuilder();
 
         sb.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>" + "\n");
         sb.append(visitProgram(ast,null)).append("\n");
-        System.out.println(sb.toString());
-        sb.setLength(0);
+        //System.out.println(sb.toString());
 
-        return sb.toString();
+        try {
+            Files.deleteIfExists(Paths.get(filename));
+            write(sb.toString(),filename);
+            System.out.println("XML CREADO EXITOSAMENTE");
+        }catch (Exception e){
+            System.out.println("Error al Escribir archivo XML");
+        }
+
     }
+
+    public void write(String xml, String filename)throws IOException {
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filename+".xml"));
+        writer.write(xml);
+        writer.close();
+    }
+
 
     @Override
     public Object visitProgram(Program ast, Object o) {
@@ -41,7 +62,7 @@ public class XMLConcreteVisitor implements Visitor {
 
     @Override
     public Object visitEmptyCommand(EmptyCommand ast, Object o) {
-        return "<EmptyCommand/>\n";
+        return "<EmptyCommand/>";
     }
 
     @Override
@@ -85,6 +106,38 @@ public class XMLConcreteVisitor implements Visitor {
                 "</DoCommand>";
     }
 
+    @Override
+    public Object visitExitCommand(ExitCommand ast, Object o) {
+        return "<DoCommand>\n"+
+                ast.I.visit(this,null)+"\n"+
+                "</DoCommand>";
+    }
+
+    @Override
+    public Object visitLoopCommand(LoopCommand ast, Object o) {
+        return "<DoCommand>\n"+
+                ast.I.visit(this,null)+"\n"+
+                ast.C.visit(this,null)+"\n"+
+                "</DoCommand>";
+    }
+
+    @Override
+    public Object visitRepeatVarCommand(RepeatVarCommand ast, Object o) {
+        return "<DoCommand>\n"+
+                ast.repeatVarDeclaration.visit(this,null)+"\n"+
+                ast.E2.visit(this,null)+"\n"+
+                ast.C.visit(this,null)+"\n"+
+                "</DoCommand>";
+    }
+
+    @Override
+    public Object visitRepeatVarDeclaration(RepeatVarDeclaration ast, Object o) {
+        return "<DoCommand>\n"+
+                ast.I.visit(this,null)+"\n"+
+                ast.E1.visit(this,null)+"\n"+
+                "</DoCommand>";
+    }
+
     //endregion
 
     //region Expression READY
@@ -121,7 +174,7 @@ public class XMLConcreteVisitor implements Visitor {
 
     @Override
     public Object visitEmptyExpression(EmptyExpression ast, Object o) {
-        return "<EmptyExpression/>\n";
+        return "<EmptyExpression/>";
     }
 
     @Override
@@ -332,7 +385,7 @@ public class XMLConcreteVisitor implements Visitor {
     @Override
     public Object visitEmptyFormalParameterSequence(EmptyFormalParameterSequence ast, Object o) {
 
-        return "</EmptyFormalParameterSequience>\n";
+        return "</EmptyFormalParameterSequience>";
     }
 
     @Override
@@ -381,7 +434,7 @@ public class XMLConcreteVisitor implements Visitor {
 
     @Override
     public Object visitEmptyActualParameterSequence(EmptyActualParameterSequence ast, Object o) {
-        return "<EmptyActualParameterSequence/>\n";
+        return "<EmptyActualParameterSequence/>";
     }
 
     @Override
@@ -405,7 +458,7 @@ public class XMLConcreteVisitor implements Visitor {
 
     @Override
     public Object visitAnyTypeDenoter(AnyTypeDenoter ast, Object o) {
-        return "<Any/>"+"\n";
+        return "<Any/>";
     }
 
     @Override
@@ -418,17 +471,17 @@ public class XMLConcreteVisitor implements Visitor {
 
     @Override
     public Object visitBoolTypeDenoter(BoolTypeDenoter ast, Object o) {
-        return "<bool/>"+ "\n";
+        return "<bool/>";
     }
 
     @Override
     public Object visitCharTypeDenoter(CharTypeDenoter ast, Object o) {
-        return "<char/>"+ "\n";
+        return "<char/>";
     }
 
     @Override
     public Object visitErrorTypeDenoter(ErrorTypeDenoter ast, Object o) {
-        return "<error/>"+ "\n";
+        return "<error/>";
     }
 
     @Override
@@ -440,7 +493,7 @@ public class XMLConcreteVisitor implements Visitor {
 
     @Override
     public Object visitIntTypeDenoter(IntTypeDenoter ast, Object o) {
-        return "<error/>"+ "\n";
+        return "<error/>";
     }
 
     @Override

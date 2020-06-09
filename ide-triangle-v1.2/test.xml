@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Program>
+<LetCommand>
+<SequentialDeclaration>
+<SequentialDeclaration>
+<SequentialDeclaration>
+<SequentialDeclaration>
+<VariableDeclaration>
+<Identifier value = "i"/>
+<SimpleTypeDenoter>
+<Identifier value = "Integer"/>
+</SimpleTypeDenoter>
+</VariableDeclaration>
+<VariableDeclaration>
+<Identifier value = "j"/>
+<SimpleTypeDenoter>
+<Identifier value = "Integer"/>
+</SimpleTypeDenoter>
+</VariableDeclaration>
+</SequentialDeclaration>
+<VariableDeclaration>
+<Identifier value = "k"/>
+<SimpleTypeDenoter>
+<Identifier value = "Integer"/>
+</SimpleTypeDenoter>
+</VariableDeclaration>
+</SequentialDeclaration>
+<VariableDeclaration>
+<Identifier value = "num"/>
+<SimpleTypeDenoter>
+<Identifier value = "Integer"/>
+</SimpleTypeDenoter>
+</VariableDeclaration>
+</SequentialDeclaration>
+<ProcedureDeclaration>
+<Identifier value = "test"/>
+<SingleFormalParameter>
+<VariableFormalParameter>
+<Identifier value = "q"/>
+<SimpleTypeDenoter>
+<Identifier value = "Integer"/>
+</SimpleTypeDenoter>
+</VariableFormalParameter>
+</SingleFormalParameter>
+<AssignCommand>
+<SimpleVname>
+<Identifier value = "i"/>
+</SimpleVname>
+<IntegerExpression>
+<IntegerLiteral value = "1"/>
+</IntegerExpression>
+</AssignCommand>
+</ProcedureDeclaration>
+</SequentialDeclaration>
+<SequencialCommand>
+<SequencialCommand>
+<SequencialCommand>
+<SequencialCommand>
+<CallCommand>
+<Identifier value = "getint"/>
+<SingleActualParameterSequence>
+<VariableActualParameter>
+<SimpleVname>
+<Identifier value = "num"/>
+</SimpleVname>
+</VariableActualParameter>
+</SingleActualParameterSequence>
+</CallCommand>
+<AssignCommand>
+<SimpleVname>
+<Identifier value = "i"/>
+</SimpleVname>
+<IntegerExpression>
+<IntegerLiteral value = "1"/>
+</IntegerExpression>
+</AssignCommand>
+</SequencialCommand>
+<AssignCommand>
+<SimpleVname>
+<Identifier value = "j"/>
+</SimpleVname>
+<IntegerExpression>
+<IntegerLiteral value = "2"/>
+</IntegerExpression>
+</AssignCommand>
+</SequencialCommand>
+<DoCommand>
+<Identifier value = "enrique"/>
+<AssignCommand>
+<SimpleVname>
+<Identifier value = "j"/>
+</SimpleVname>
+<VnameExpression>
+<SimpleVname>
+<Identifier value = "k"/>
+</SimpleVname>
+</VnameExpression>
+</AssignCommand>
+</DoCommand>
+</SequencialCommand>
+<EmptyCommand/>
+</SequencialCommand>
+</LetCommand>
+</Program>

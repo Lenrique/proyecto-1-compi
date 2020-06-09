@@ -52,8 +52,11 @@ public class IDECompiler {
         boolean success = false;
         
         rootAST = parser.parseProgram();
-        //Disable Ckecker and Encoder
+        success = (report.numErrors == 0);
 
+
+        //Disable Ckecker and Encoder
+        /*
         if (report.numErrors == 0) {
             System.out.println("Contextual Analysis ...");
             Checker checker = new Checker(report);
@@ -68,7 +71,7 @@ public class IDECompiler {
                     success = true;
                 }
             }
-        }
+        }*/
 
 
         if (success)

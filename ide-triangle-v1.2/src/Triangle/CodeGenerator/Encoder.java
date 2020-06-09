@@ -107,6 +107,26 @@ public final class Encoder implements Visitor {
     return null;
   }
 
+  @Override
+  public Object visitExitCommand(ExitCommand exitCommand, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitLoopCommand(LoopCommand loopCommand, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitRepeatVarCommand(RepeatVarCommand repeatVarCommand, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitRepeatVarDeclaration(RepeatVarDeclaration repeatVarDeclaration, Object o) {
+    return null;
+  }
+
 
   // Expressions
   public Object visitArrayExpression(ArrayExpression ast, Object o) {

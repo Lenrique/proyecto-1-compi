@@ -69,6 +69,7 @@ public class Compiler {
 
         System.out.println("Syntactic Analysis ...");
         SourceFile source = new SourceFile(sourceName);
+        System.out.println(sourceName);
 
         if (source == null) {
             System.out.println("Can't access source file " + sourceName);
@@ -92,7 +93,7 @@ public class Compiler {
 
         XMLConcreteVisitor xmlConcreteVisitor = new XMLConcreteVisitor();
         xmlConcreteVisitor.export(theAST,null);
-        */
+
 
         //Disable Checker and Encoder
         /*
@@ -115,6 +116,8 @@ public class Compiler {
         if (successful) {
             encoder.saveObjectProgram(objectName);
             System.out.println("Compilation was successful.");
+            XMLConcreteVisitor xmlConcreteVisitor = new XMLConcreteVisitor();
+            xmlConcreteVisitor.export(theAST,sourceName.replace(".tri",""));
         } else {
             System.out.println("Compilation was unsuccessful.");
         }

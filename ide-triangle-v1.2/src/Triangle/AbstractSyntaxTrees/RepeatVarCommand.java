@@ -17,6 +17,6 @@ public class RepeatVarCommand extends Command {
 
     @Override
     public Object visit(Visitor v, Object o) {
-        return null;
+        return v.visitRepeatVarCommand(this, o);
     }
 }

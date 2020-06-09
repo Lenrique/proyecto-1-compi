@@ -25,6 +25,10 @@ public interface Visitor {
   Object visitSequentialCommand(SequentialCommand ast, Object o);
   Object visitWhileCommand(WhileCommand ast, Object o);
   Object visitUntilCommand(UntilCommand ast, Object o);
+  Object visitExitCommand(ExitCommand exitCommand, Object o);
+  Object visitLoopCommand(LoopCommand loopCommand, Object o);
+  Object visitRepeatVarCommand(RepeatVarCommand repeatVarCommand, Object o);
+  Object visitRepeatVarDeclaration(RepeatVarDeclaration repeatVarDeclaration, Object o);
 
 
   // Expressions
@@ -104,5 +108,7 @@ public interface Visitor {
 
   // Programs
   Object visitProgram(Program ast, Object o);
+
+
 
 }

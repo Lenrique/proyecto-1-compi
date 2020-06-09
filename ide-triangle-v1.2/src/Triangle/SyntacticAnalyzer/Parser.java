@@ -732,16 +732,7 @@ public class Parser {
 
     switch (currentToken.kind){
       case Token.PROC:{
-        acceptIt();
-        Identifier iAST = parseIdentifier();
-        accept(Token.LPAREN);
-        FormalParameterSequence fpsAST = parseFormalParameterSequence();
-        accept(Token.RPAREN);
-        accept(Token.IS);
-        Command cAST = parseCommand();
-        finish(declarationPos);
-        declarationAST = new ProcDeclaration(iAST,fpsAST,cAST,declarationPos);
-        accept(Token.END);
+        declarationAST = parseProcDeclaration(declarationPos);
       }
       break;
 
@@ -803,16 +794,7 @@ public class Parser {
 
     case Token.PROC:
       {
-        acceptIt();
-        Identifier iAST = parseIdentifier();
-        accept(Token.LPAREN);
-        FormalParameterSequence fpsAST = parseFormalParameterSequence();
-        accept(Token.RPAREN);
-        accept(Token.IS);
-        Command cAST = parseCommand();
-        finish(declarationPos);
-        declarationAST = new ProcDeclaration(iAST, fpsAST, cAST, declarationPos);
-        accept(Token.END);
+        declarationAST = parseProcDeclaration(declarationPos);
       }
       break;
 
@@ -850,6 +832,21 @@ public class Parser {
       break;
 
     }
+    return declarationAST;
+  }
+
+  private Declaration parseProcDeclaration(SourcePosition declarationPos) throws SyntaxError {
+    Declaration declarationAST;
+    acceptIt();
+    Identifier iAST = parseIdentifier();
+    accept(Token.LPAREN);
+    FormalParameterSequence fpsAST = parseFormalParameterSequence();
+    accept(Token.RPAREN);
+    accept(Token.IS);
+    Command cAST = parseCommand();
+    finish(declarationPos);
+    declarationAST = new ProcDeclaration(iAST, fpsAST, cAST, declarationPos);
+    accept(Token.END);
     return declarationAST;
   }
 
