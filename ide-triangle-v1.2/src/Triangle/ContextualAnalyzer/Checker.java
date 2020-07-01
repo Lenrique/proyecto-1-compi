@@ -114,6 +114,20 @@ public final class Checker implements Visitor {
     return null;
   }
 
+  @Override
+  public Object visitDoUntilCommand(DoUntilCommand ast, Object o) {
+    return null;
+  }
+
+  @Override
+  public Object visitDoWhileCommand(DoWhileCommand ast, Object o) {
+    ast.C.visit(this, null);
+    TypeDenoter eType = (TypeDenoter) ast.E.visit(this, null);
+    if (! eType.equals(StdEnvironment.booleanType))
+      reporter.reportError("Boolean expression expected here", "", ast.E.position);
+    return null;
+  }
+
   // Expressions
 
   // Returns the TypeDenoter denoting the type of the expression. Does

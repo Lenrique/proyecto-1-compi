@@ -15,6 +15,6 @@ public class DoUntilCommand extends Command{
 
     @Override
     public Object visit(Visitor v, Object o) {
-        return null;
+        return v.visitDoUntilCommand(this,o);
     }
 }

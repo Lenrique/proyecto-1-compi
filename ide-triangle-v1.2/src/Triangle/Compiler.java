@@ -86,6 +86,7 @@ public class Compiler {
 
         // scanner.enableDebugging();
         theAST = parser.parseProgram();				// 1st pass
+        checker.check(theAST);				// 2nd pass
         /*
         SourceFile source1 = new SourceFile(sourceName);
         Scanner scanner1 = new Scanner(source1);

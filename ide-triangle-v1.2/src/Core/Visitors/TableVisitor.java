@@ -106,6 +106,16 @@ public class TableVisitor implements Visitor {
         return null;
     }
 
+    @Override
+    public Object visitDoUntilCommand(DoUntilCommand ast, Object o) {
+        return null;
+    }
+
+    @Override
+    public Object visitDoWhileCommand(DoWhileCommand ast, Object o) {
+        return null;
+    }
+
     // </editor-fold>
 
   // <editor-fold defaultstate="collapsed" desc=" Expressions ">

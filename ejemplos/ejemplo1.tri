@@ -2,19 +2,18 @@ let
  var i: Integer;
  var j: Integer;
  var k: Integer;
- var num: Integer
+ var num: Integer;
+
+ proc test (var q: Integer) ~ i:= 1 end
+  
 in
-began
+
+repeat while (k>9) do  j:=2 end;
+
  getint (var num); ! Number of iterations.
  i:= 1;
  j:= 2;
- while (num > 0) do
- begin
- putint(i);
- put(' ');
- k:= i+j;
- i:= j;
- j:= k;
- num:= num - 1;
- end;
-end
+ repeat loop enrique do j:= k end; 
+ return 
+  
+ end ! Comentario

@@ -79,6 +79,16 @@ public class TreeVisitor implements Visitor {
         return (createBinary("RepeatVar Declaration",ast.I,ast.E1));
     }
 
+    @Override
+    public Object visitDoUntilCommand(DoUntilCommand ast, Object o) {
+        return(createBinary("Do Until Command", ast.C, ast.E));
+    }
+
+    @Override
+    public Object visitDoWhileCommand(DoWhileCommand ast, Object o) {
+        return(createBinary("Do While Command", ast.C, ast.E));
+    }
+
     // </editor-fold>
     
     // <editor-fold defaultstate="collapsed" desc=" Expressions ">

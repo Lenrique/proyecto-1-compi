@@ -138,6 +138,22 @@ public class XMLConcreteVisitor implements Visitor {
                 "</DoCommand>";
     }
 
+    @Override
+    public Object visitDoUntilCommand(DoUntilCommand ast, Object o) {
+        return "<DoUntilCommand>\n"+
+                ast.E.visit(this,null)+"\n"+
+                ast.C.visit(this,null)+"\n"+
+                "</DoUntilCommand>";
+    }
+
+    @Override
+    public Object visitDoWhileCommand(DoWhileCommand ast, Object o) {
+        return "<DoWhileCommand>\n"+
+                ast.E.visit(this,null)+"\n"+
+                ast.C.visit(this,null)+"\n"+
+                "</DoWhileCommand>";
+    }
+
     //endregion
 
     //region Expression READY

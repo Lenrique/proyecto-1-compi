@@ -307,8 +307,7 @@ public class Parser {
             finish(commandPos);
             commandAST = new DoUntilCommand(cAST, eAST, commandPos);
             accept(Token.END);
-          }else{
-            //Agregar error.
+            break;
           }
 
         }

@@ -13,10 +13,10 @@ import Triangle.AbstractSyntaxTrees.Program;
 import Triangle.SyntacticAnalyzer.Parser;
 import Triangle.ContextualAnalyzer.Checker;
 import Triangle.CodeGenerator.Encoder;
+import Triangle.Test.XMLConcreteVisitor;
 
 
-
-/** 
+/**
  * This is merely a reimplementation of the Triangle.Compiler class. We need
  * to get to the ASTs in order to draw them in the IDE without modifying the
  * original Triangle code.
@@ -74,8 +74,12 @@ public class IDECompiler {
         }*/
 
 
-        if (success)
+        if (success){
             System.out.println("Compilation was successful.");
+            XMLConcreteVisitor xmlConcreteVisitor = new XMLConcreteVisitor();
+            xmlConcreteVisitor.export(rootAST,sourceName.replace(".tri",""));
+            System.out.println("XML Generated");
+        }
         else
             System.out.println("Compilation was unsuccessful.");
         

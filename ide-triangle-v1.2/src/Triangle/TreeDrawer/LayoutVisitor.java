@@ -62,7 +62,15 @@ public class LayoutVisitor implements Visitor {
     return layoutBinary("UntilCom.", ast.E, ast.C);
   }
 
+  @Override
+  public Object visitDoUntilCommand(DoUntilCommand ast, Object o) {
+    return layoutBinary("DoUntilCommand", ast.C,ast.E);
+  }
 
+  @Override
+  public Object visitDoWhileCommand(DoWhileCommand ast, Object o) {
+    return layoutBinary("DoWhileCommand", ast.C,ast.E);
+  }
 
 
 
@@ -87,8 +95,6 @@ public class LayoutVisitor implements Visitor {
   public Object visitRepeatVarDeclaration(RepeatVarDeclaration repeatVarDeclaration, Object o) {
     return null;
   }
-
-
 
 
 

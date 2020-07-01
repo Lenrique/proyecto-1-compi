@@ -15,6 +15,6 @@ public class DoWhileCommand extends Command{
 
     @Override
     public Object visit(Visitor v, Object o) {
-        return null;
+        return v.visitDoWhileCommand(this,o);
     }
 }
