@@ -24,26 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b9f6bb-dbcb-4080-80c8-09d8809f7551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ide_triangle_v1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejemplos/ejemplo1.tri" beforeDir="false" afterPath="$PROJECT_DIR$/../ejemplos/ejemplo1.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/Compiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/IDECompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ide-triangle-v1.2/Triangle/IDECompiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Visitors/TableVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Visitors/TableVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Visitors/TreeVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Visitors/TreeVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/AbstractSyntaxTrees/DoUntilCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/AbstractSyntaxTrees/DoUntilCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/AbstractSyntaxTrees/DoWhileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/AbstractSyntaxTrees/DoWhileCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/AbstractSyntaxTrees/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/AbstractSyntaxTrees/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/CodeGenerator/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/CodeGenerator/Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/Compiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/ContextualAnalyzer/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/ContextualAnalyzer/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/IDECompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/IDECompiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/SyntacticAnalyzer/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/Test/XMLConcreteVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/Test/XMLConcreteVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle/TreeDrawer/LayoutVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle/TreeDrawer/LayoutVisitor.java" afterDir="false" />
-    </list>
+    <list default="true" id="32b9f6bb-dbcb-4080-80c8-09d8809f7551" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +138,7 @@
       <workItem from="1591671495943" duration="336000" />
       <workItem from="1591672757964" duration="487000" />
       <workItem from="1592430651313" duration="129000" />
-      <workItem from="1593617317166" duration="6389000" />
+      <workItem from="1593617317166" duration="6561000" />
     </task>
     <servers />
   </component>
@@ -235,26 +216,26 @@
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
     <state x="100" y="127" width="2360" height="853" key="DiffContextDialog/0.27.2560.1053@0.27.2560.1053" timestamp="1591635535225" />
-    <state x="662" y="398" width="652" height="540" key="FileChooserDialogImpl" timestamp="1591636816639">
+    <state x="662" y="398" width="652" height="540" key="FileChooserDialogImpl" timestamp="1593623989818">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state x="662" y="398" width="652" height="540" key="FileChooserDialogImpl/0.27.2560.1053@0.27.2560.1053" timestamp="1591636816639" />
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom" timestamp="1593622275373">
+    <state x="662" y="398" width="652" height="540" key="FileChooserDialogImpl/0.27.2560.1053@0.27.2560.1053" timestamp="1593623989818" />
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom" timestamp="1593624003230">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.27.2560.1053@0.27.2560.1053" timestamp="1593622275373" />
-    <state width="1238" height="181" key="GridCell.Tab.0.center" timestamp="1593622275372">
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.27.2560.1053@0.27.2560.1053" timestamp="1593624003230" />
+    <state width="1238" height="181" key="GridCell.Tab.0.center" timestamp="1593624003229">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.center/0.27.2560.1053@0.27.2560.1053" timestamp="1593622275372" />
-    <state width="1238" height="181" key="GridCell.Tab.0.left" timestamp="1593622275372">
+    <state width="1238" height="181" key="GridCell.Tab.0.center/0.27.2560.1053@0.27.2560.1053" timestamp="1593624003229" />
+    <state width="1238" height="181" key="GridCell.Tab.0.left" timestamp="1593624003227">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.left/0.27.2560.1053@0.27.2560.1053" timestamp="1593622275372" />
-    <state width="1238" height="181" key="GridCell.Tab.0.right" timestamp="1593622275373">
+    <state width="1238" height="181" key="GridCell.Tab.0.left/0.27.2560.1053@0.27.2560.1053" timestamp="1593624003227" />
+    <state width="1238" height="181" key="GridCell.Tab.0.right" timestamp="1593624003230">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.right/0.27.2560.1053@0.27.2560.1053" timestamp="1593622275373" />
+    <state width="1238" height="181" key="GridCell.Tab.0.right/0.27.2560.1053@0.27.2560.1053" timestamp="1593624003230" />
     <state width="2518" height="310" key="GridCell.Tab.1.bottom" timestamp="1591673244312">
       <screen x="0" y="27" width="2560" height="1053" />
     </state>

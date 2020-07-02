@@ -383,13 +383,15 @@ public class Parser {
       break;
     }
 
-
+      case Token.NIL:
+    /*
     case Token.SEMICOLON:
     case Token.END:
     case Token.ELSE:
     case Token.IN:
-    case Token.EOT:
+    case Token.EOT:*/
 
+      acceptIt();
       finish(commandPos);
       commandAST = new EmptyCommand(commandPos);
       break;
